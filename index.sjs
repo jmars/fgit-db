@@ -1,6 +1,5 @@
 import { Repo, Person, Commit, Tag, Blob, Tree } from 'fgit'
 import co from 'co'
-import mock from 'mock-fs'
 import path from 'path'
 
 var SystemUser = Person.create({
