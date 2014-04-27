@@ -1,0 +1,22 @@
+{
+  "name": "fgit-db",
+  "version": "0.0.1",
+  "description": "KV Store for fgit",
+  "main": "index.js",
+  "dependencies": {
+    "co": "~3.0.5",
+    "fgit": "~0.0.3"
+  },
+  "devDependencies": {
+    "sparkler": "~0.1.6",
+    "rustyscript": "~0.0.1",
+    "sweet.js": "^0.5.0",
+    "regenerator": "^0.4.6"
+  },
+  "scripts": {
+    "test": "make test",
+		"prepublish": "make"
+  },
+  "author": "Jaye Marshall <marshall.jaye@marshall.com>",
+  "license": "MIT"
+}
